@@ -1,0 +1,24 @@
+#box1{
+
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    font-size: 15px;
+}
+
+#box2{
+
+    height: 50px;
+    /* here % is in comparision of parent element. bax1 is parent box and box2 is child so 30% width means 100px's 30% coz parent box's width is 100px. mailny used for height and width*/
+    width: 30%;
+    background-color: rgb(35, 166, 122);
+    margin-left: 10%;
+    /* here em is reletive to parents font size. 2em means 2 times of parent element's font size. here we have to see the font size of parent element*/
+    /* font-size: 2em; */
+    /* here we have to see the font size of itself means here we have 2em font size means 30px and width 5em means 30*5 = 150px. */
+    width: 5em;
+
+    /* rem means root em it takes the root value or the outer elements value like body and its bydefault font-size is 16px means 3rem = 3*16 = 48.  */
+    font-size: 3rem;
+
+}
