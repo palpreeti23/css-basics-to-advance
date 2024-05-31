@@ -16,9 +16,68 @@
     /* here em is reletive to parents font size. 2em means 2 times of parent element's font size. here we have to see the font size of parent element*/
     /* font-size: 2em; */
     /* here we have to see the font size of itself means here we have 2em font size means 30px and width 5em means 30*5 = 150px. */
-    width: 5em;
+    width: 2em;
 
     /* rem means root em it takes the root value or the outer elements value like body and its bydefault font-size is 16px means 3rem = 3*16 = 48.  */
     font-size: 3rem;
 
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(106, 83, 127);
+    border: 2px solid black ;
+    display: inline-block;
+
+}
+
+.box1{
+    position: static;
+    /* top, botttom right left dont work in static. static means it will be still*/
+    background-image: url("./image/bcg-img.jpg");
+    background-size: cover;
+}
+
+.box2{
+    position: relative;
+    /* top: 20px;
+    left: 20px; */
+    background-image: url("./image/bcg-img.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box3{
+
+    /* it position itself according to its closest positioned ancestor(parents)*/
+    /* also its movable it will move with the text and it will be above the text. no place will be reserved for the box*/
+    /* position: absolute; */
+    /* top: 500px; */
+    
+    background-image: url("./image/bcg-img.jpg");
+    background-size: auto;
+}
+
+.box4{
+    /* it works according to the web page. mostly used for header and footer.*/
+    /* position: fixed; */
+   
+}
+
+.box5{
+    /*when it comes to its given position it get stick there */
+    /* position: sticky; */
+    /* top: 200px; */
+}
+
+#div-nature{
+    height: 200px;
+    width: 200px;
+    color: aliceblue;
+    background-color: rgb(60, 97, 109);
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-image: url("./image/bcg-img.jpg");
+    background-size: cover;
 }
