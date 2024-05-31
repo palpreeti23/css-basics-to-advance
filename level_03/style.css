@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+}
+
+#container {
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+   
+    flex-direction: row;
+    /* flex-direction: row-reverse;
+    /* flex-direction: column-reverse;  */
+    /* flex-direction: column; */
+    justify-content: center;
+    /* flex-start,flex-end,center,space-around,space-between,space-evenly*/
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-content: center; */
+
+
+}
+ div {
+
+    height: 50px;
+    width: 60px;
+    border: 2px solid black;
+    display: inline-block;
+} 
+
+#box1 {
+
+    background-color: rgb(30, 98, 100);
+    /* align-self: center; */
+    /* flex-shrink: .5; */
+    flex-grow: 1;
+
+}
+
+#box2 {
+
+    background-color: rgb(119, 135, 197);
+    height: 100px;
+    flex-grow: 2;
+
+}
+
+#box3 {
+
+    background-color: rgb(72, 53, 119);
+    /* height: 30px; */
+
+}
+
+#box4 {
+
+    background-color: rgb(148, 74, 150);
+
+}
+
+#box5 {
+
+    background-color: rgb(144, 70, 111);
+}
+
+#navbar{
+    height: 100px;
+    width: 100%;
+   background-color: black;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+   color: white;
+}
+
+li{
+    display: inline;
+    
+}
+
+#outer{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+     display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#inner{
+
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+ 
+}
