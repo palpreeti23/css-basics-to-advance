@@ -1,4 +1,4 @@
-body {
+ body {
     text-align: center;
 }
 
@@ -11,10 +11,10 @@ body {
     /* flex-direction: row-reverse;
     /* flex-direction: column-reverse;  */
     /* flex-direction: column; */
-    justify-content: center;
+    /* justify-content: center; */
     /* flex-start,flex-end,center,space-around,space-between,space-evenly*/
     /* flex-wrap: wrap; */
-    align-items: flex-start;
+    /* align-items: flex-start; */
     /* align-content: center; */
 
 
@@ -24,7 +24,8 @@ body {
     height: 50px;
     width: 60px;
     border: 2px solid black;
-    display: inline-block;
+    background-color: rgb(88, 191, 156);
+    /* display: inline-block; */
 } 
 
 #box1 {
@@ -86,7 +87,7 @@ li{
     border: 2px solid black;
      display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center; 
 }
 
 #inner{
@@ -95,4 +96,51 @@ li{
     width: 50px;
     border: 2px solid black;
  
+} 
+  
+
+ /* @media (min-width : 600px){
+    div{
+        background-color: blue;
+    }
+   
+}
+
+@media (max-width : 500px){
+    div{
+        background-color: rgb(255, 0, 234);
+    }
+   
+} 
+
+@media (min-width : 300px) and (max-width : 400px){
+    div{
+        background-color: rgb(181, 13, 19);
+    }
+
+} */
+
+/* ***************************PRACTICE SET 07****************************** */
+
+@media (max-width : 300px) {
+    div{
+        background-color: green;
+    }
+    
+}
+
+@media (min-width : 300px) and (max-width : 400px){
+    div{
+        background-color: pink;
+    }
+}
+@media (min-width : 400px) and (max-width : 600px){
+    div{
+        background-color: red;
+    }
+}
+@media (min-width : 600px){
+    div{
+        background-color: blue;
+    }
 }
