@@ -1,0 +1,116 @@
+
+/*
+    ************* TRANSITION PROPERTY*********** 
+ */
+
+div {
+    /* height: 100px;
+    width: 100px;
+    background-color: rgba(154, 70, 154, 0.482);
+    border: 2px solid black;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    border-radius: 50%; */
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 1s; */
+    /* transition: all 2s ease-in; */
+    /* transform: rotate(45deg); */
+
+    /* animation-name: first-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+    /* animation: first-animation 1s ease-in 3 normal; */
+
+
+}
+
+/*
+          PSEUDO CLASS
+
+*/
+div:hover {
+
+    /* background-color: purple;
+    color: white;
+    font-size: 20px;
+    font-weight: bold; */
+    /* transform: scale(1,2); */
+    /* transform: translatex(200px);
+    transform: skew(45deg); */
+}
+
+div:active {
+    background-color: aqua;
+}
+
+
+/*                      ANIMATION PROPERTY  
+
+    */
+
+
+@keyframes first-animation {
+    /* from {background-color: rgba(154, 70, 154, 0.482);}
+    to {background-color: purple;}
+     */
+
+    /* from {
+        left: 0px;
+        background-color: aqua;
+    }
+
+    to {
+        left: 200px;
+        background-color: purple;
+
+    } */
+
+    0%{
+        left: 0px;
+        background-color: aqua;
+    }
+    25%{
+       
+        background-color: rgb(229, 190, 112);
+    }
+    50%{
+       
+        background-color: rgb(180, 76, 93);
+    }
+    100%{
+        left: 200px;
+        background-color: purple;
+    }
+}
+
+
+#loader{
+    /* background-color: rgb(233, 141, 233); */
+    height: 50px;
+    width: 50px;
+    border: 5px solid rgb(164, 158, 158);
+    border-top: 5px solid rgb(90, 6, 90);
+    border-radius: 50%;
+    animation: loaderIcon .25s ease-in infinite ;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+}
+
+@keyframes loaderIcon {
+
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
