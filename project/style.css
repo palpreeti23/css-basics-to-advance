@@ -213,6 +213,7 @@ span {
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: rgba(226, 239, 241, 0.954);
+    padding: 10px 14px;
 }
 
 .box{
@@ -247,6 +248,7 @@ span {
 .second-container{
     height: 300px;
     background-color: rgba(226, 239, 241, 0.954);
+    padding: 10px 14px;
     /* margin-top: 1em; */
  
   
@@ -291,40 +293,125 @@ span {
 
 .container-third{
     height: 430px;
-    /* display: flex;
+    padding: 10px 14px;
+    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: rgba(226, 239, 241, 0.954); */
+     background-color: rgba(226, 239, 241, 0.954); 
 }
 
 .box3{
 
-    height: 380px;
-    width: 22.2%;
+    height: 400px;
+    width: 22%;
     background-color: white;
     margin-top: 20px;
-    padding-left: 1.5em;  
+    padding-left: .7em;
+    margin-left: .5em;  
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
+    justify-content: center;
+
+}
+
+.third-heading{
+    margin: .5em;
+    width: 100%;
 }
 
 .two-images{
 
     display: flex;
-    height: 120px;
-    width: 210px;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 1em;
+    height: 150px;
+    width: 290px;
 }
 
 .box-image-next{
 
-    height: 110px;
-    width: 150px;
-    background-size: cover;
+    height: 150px; 
+    width: 290px;
+    margin: .4em;
+    background-size: auto;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
+.box-image-next p{
+    background-color: white;
+    color: #0f1111;
+    height: 20px;
+    width: 95%;
+    font-size: 12px;
+    padding: 3px 4px 0;
+    text-align: start;
+}
 
+.second-panel{
+    height: 100px;
+    text-align: center;
+    margin-top: 2em ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.second-panel p{
+    font-size: 14px;
+}
+
+.signin{
+    padding-top: .5em;
+    text-align: center;
+    height: 22px;
+    width: 230px;
+    font-size: 13px;
+    background-color: rgb(236, 193, 93);
+    border-radius: 4px;
+    border: 2px solid rgb(212, 164, 21);
+}
+
+.new_cust{
+    font-size: 12px;
+}
+
+.new_cust span{
+    color: #007185;
+}
+
+.third-panel{
+    height: 35px;
+    background-color: #3d4c60;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 14px;
+    
+}
+
+.main-footer{
+    height: 400px;
+    background-color: #232f3f;
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+   
+
+}
+
+.info{
+    padding: 2.5em 1.5em 0em;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 4em;
+}
+
+.info p{
+    font-size: 14px;
+    font-weight: normal;
+    color: #dddddd;
+    padding: 6px;
+}
