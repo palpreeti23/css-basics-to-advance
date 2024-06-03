@@ -2,6 +2,7 @@
     margin: 0px;
     font-family: Arial;
     border: border-box;
+    /* background-color: rgba(226, 239, 241, 0.954); */
 }
 
 .navbar {
@@ -207,7 +208,7 @@ span {
 }
 
 .container{
-    height: 900px;
+    height: 930px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -215,8 +216,8 @@ span {
 }
 
 .box{
-    height: 450px;
-    width: 22%;
+    height: 430px;
+    width: 22.2%;
     background-color: white;
     margin-top: 20px;
     padding-left: 1.5em;  
@@ -233,6 +234,7 @@ span {
 .heading{
     padding: .60em;
     text-align: center;
+    background-color: white;
 }
 
 .suggestion{
@@ -241,3 +243,88 @@ span {
     color: #007185;
     margin-top: 1.5em;
 }
+
+.second-container{
+    height: 300px;
+    background-color: rgba(226, 239, 241, 0.954);
+    /* margin-top: 1em; */
+ 
+  
+}
+
+.second-subcontainer{
+
+    height: 280px;
+    background-color: white;
+    margin-left: .7em;
+    margin-right: .7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.second-heading{
+    background-color: white;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding: 1em 1em 0em;
+
+}
+.box2{
+   
+    /* padding-top: 1em; */
+    height: 200px;
+    width: 17%;
+    background-color: white;
+    margin-left: 1em;
+    padding-left: .5em;  
+  
+}
+
+.box2-image{
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+} 
+
+.container-third{
+    height: 430px;
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(226, 239, 241, 0.954); */
+}
+
+.box3{
+
+    height: 380px;
+    width: 22.2%;
+    background-color: white;
+    margin-top: 20px;
+    padding-left: 1.5em;  
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+.two-images{
+
+    display: flex;
+    height: 120px;
+    width: 210px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1em;
+}
+
+.box-image-next{
+
+    height: 110px;
+    width: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
