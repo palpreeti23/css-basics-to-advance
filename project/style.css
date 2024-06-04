@@ -1,12 +1,15 @@
 * {
-    margin: 0px;
+    margin: 0rem;
     font-family: Arial;
     border: border-box;
-    /* background-color: rgba(226, 239, 241, 0.954); */
+}
+
+html{
+    font-size: 62.5%;
 }
 
 .navbar {
-    height: 60px;
+    height: 6rem;
     background-color: #0f1111;
     color: white;
     display: flex;
@@ -16,14 +19,14 @@
 
 /*first box*/
 .main-logo {
-    height: 50px;
-    width: 100px;
-    padding: 1px 8px 0px 6px;
+    height: 5rem;
+    width: 10rem;
+    padding: .1rem .8rem 0rem .6rem;
 }
 
 .logo {
     background-image: url("./project-images/amazon_logo.webp");
-    margin-top: 1em;
+    margin-top: 1rem;
     height: 80%;
     width: 100%;
     background-size: contain;
@@ -31,11 +34,11 @@
 }
 
 .border {
-    border: 2px solid transparent;
+    border: .2rem solid transparent;
 }
 
 .border:hover {
-    border: 2px solid white;
+    border: .2rem solid white;
 }
 
 /*second box*/
@@ -44,17 +47,17 @@
 }
 
 .first-add {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #cccccc;
 }
 
 .sec-add {
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: bolder;
 }
 
 .address {
-    padding: .5em;
+    padding: .5rem;
 }
 
 
@@ -66,8 +69,8 @@
 }
 
 .nav-search:hover {
-    border: 3px solid rgb(238, 157, 26);
-    border-radius: 4px;
+    border: .3rem solid rgb(238, 157, 26);
+    border-radius: .4rem;
 }
 
 .search-icon {
@@ -76,41 +79,41 @@
 }
 
 .opt {
-    height: 40px;
-    width: 50px;
+    height: 4rem;
+    width: 5rem;
     background-color: #e6e6e6;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+    border-top-left-radius: .4rem;
+    border-bottom-left-radius: .4rem;
 }
 
 .search-bar {
-    width: 650px;
-    height: 35px;
-    font-size: .90em;
+    width: 65rem;
+    height: 3.5rem;
+    font-size: 1.4rem;
 }
 
 .search-icon {
-    width: 40px;
-    height: 40px;
+    width: 4rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
+    border-top-right-radius: .4rem;
+    border-bottom-right-radius: .4rem;
     background-color: rgb(209, 164, 90);
 }
 
 .flag {
     background-image: url("./project-images/usa-flag.png");
-    height: 15px;
-    width: 15px;
+    height: 1.5rem;
+    width: 1.5rem;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .country-sing {
     display: flex;
-    padding: .7em;
+    padding: .7rem;
 }
 
 .language {
@@ -121,33 +124,33 @@
 }
 
 span {
-    font-size: 12px;
-    margin-left: 6px;
+    font-size: 1.2rem;
+    margin-left: .6rem;
 
 }
 
 .acc-detail {
     background-color: #0f1111;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: bolder;
     color: white;
     border: none;
-    padding: .5em;
+    padding: .5rem;
 }
 
 .cart-logo {
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 
 .nav-cart {
     display: flex;
-    padding: .5em;
+    padding: .5rem;
 }
 
 .txt-cart {
 
-    padding-top: .5em;
-    font-size: 14px;
+    padding-top: .5rem;
+    font-size: 1.4rem;
     font-weight: bolder;
     color: white;
 }
@@ -155,32 +158,32 @@ span {
 .category-panel{
     background-color: #232f3f;
     color: white;
-    height: 40px;
+    height: 4rem;
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
  .first-panle-item{
     display: flex;
-    padding: 8px 16px ;
+    padding: .8rem 1.6rem ;
     font-weight: bolder;
 }
 
 .first-txt{
-    padding-left: 5px;
+    padding-left: .5rem;
 }
 
 .second-panel-item p{
     display: inline;
-    height: 40px;
-    width: 990px;
-    padding-right: 15px; 
+    height: 4rem;
+    width: 99rem;
+    padding-right: 1.5rem; 
 } 
 
 .hero-class{
     background-image: url('./project-images/hero-image.jpg');
-    height: 300px;
+    height: 30rem;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -192,11 +195,11 @@ span {
 
     background-color: #f5f6f6;
     color: #0f1111;
-    height: 20px;
+    height: 2rem;
     width: 95%;
-    margin-top: .6em;
-    font-size: 14px;
-    padding: 10px 14px;
+    margin-top: .6rem;
+    font-size: 1.4rem;
+    padding: 1rem 1.4rem;
     text-align: center;
 
 }
@@ -204,51 +207,51 @@ span {
 .hero-txt span{
 
     color: #007185;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .container{
-    height: 930px;
+    height: 93rem;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: rgba(226, 239, 241, 0.954);
-    padding: 10px 14px;
+    padding: 1rem 1.4rem;
 }
 
 .box{
-    height: 430px;
-    width: 22.2%;
+    height: 43rem;
+    width: 23%;
     background-color: white;
-    margin-top: 20px;
-    padding-left: 1.5em;  
+    margin-top: 2rem;
+    padding-left: 1.5rem;  
   
 }
 
 .box-image{
-    height: 330px;
-    width: 280px;
+    height: 33rem;
+    width: 28rem;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .heading{
-    padding: .60em;
-    text-align: center;
+    padding: 1rem;
     background-color: white;
+    font-size: 2.1rem;
 }
 
 .suggestion{
-
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #007185;
-    margin-top: 1.5em;
+    margin-top: 2rem;
+    /* padding-top: 2rem; */
 }
 
 .second-container{
-    height: 300px;
+    height: 30rem;
     background-color: rgba(226, 239, 241, 0.954);
-    padding: 10px 14px;
+    padding: 1rem 1.4rem;
     /* margin-top: 1em; */
  
   
@@ -256,10 +259,10 @@ span {
 
 .second-subcontainer{
 
-    height: 280px;
+    height: 28rem;
     background-color: white;
-    margin-left: .7em;
-    margin-right: .7em;
+    margin-left: .7rem;
+    margin-right: .7rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,32 +271,33 @@ span {
 
 .second-heading{
     background-color: white;
-    margin-left: .5em;
-    margin-right: .5em;
-    padding: 1em 1em 0em;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    padding: 1rem 1rem 0rem;
+    font-size: 2.1rem;
 
 }
 .box2{
    
     /* padding-top: 1em; */
-    height: 200px;
+    height: 20rem;
     width: 17%;
     background-color: white;
-    margin-left: 1em;
-    padding-left: .5em;  
+    margin-left: 1rem;
+    padding-left: .5rem;  
   
 }
 
 .box2-image{
-    height: 200px;
+    height: 20rem;
     background-size: contain;
     background-repeat: no-repeat;
     background-color: white;
 } 
 
 .container-third{
-    height: 430px;
-    padding: 10px 14px;
+    height: 43rem;
+    padding: 1rem 1.4rem;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -302,12 +306,12 @@ span {
 
 .box3{
 
-    height: 400px;
-    width: 22%;
+    height: 40rem;
+    width: 23.5%;
     background-color: white;
-    margin-top: 20px;
-    padding-left: .7em;
-    margin-left: .5em;  
+    margin-top: 2rem;
+    padding-left: .7rem;
+    margin-left: .5rem;  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -315,22 +319,23 @@ span {
 }
 
 .third-heading{
-    margin: .5em;
+    margin: .5rem;
     width: 100%;
+    font-size: 2.1rem;
 }
 
 .two-images{
 
     display: flex;
-    height: 150px;
-    width: 290px;
+    height: 15rem;
+    width: 29rem;
 }
 
 .box-image-next{
 
-    height: 150px; 
-    width: 290px;
-    margin: 0 .4em 0;
+    height: 15rem; 
+    width: 29rem;
+    margin: 0 .4rem 0;
     background-size: auto;
     background-repeat: no-repeat;
     display: flex;
@@ -341,17 +346,17 @@ span {
 .box-image-next p{
     background-color: white;
     color: #0f1111;
-    height: 25px;
+    height: 2.5rem;
     width: 95%;
-    font-size: 12px;
-    padding: 0 4px 0;
+    font-size: 1.2rem;
+    padding: 0 .4rem 0;
   
 }
 
 .second-panel{
-    height: 100px;
+    height: 10rem;
     text-align: center;
-    margin-top: 2em ;
+    margin-top: 2rem ;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -359,22 +364,22 @@ span {
 }
 
 .second-panel p{
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .signin{
-    padding-top: .5em;
+    padding-top: .5rem;
     text-align: center;
-    height: 22px;
-    width: 230px;
+    height: 2.2rem;
+    width: 23rem;
     font-size: 13px;
     background-color: rgb(236, 193, 93);
-    border-radius: 4px;
-    border: 2px solid rgb(212, 164, 21);
+    border-radius: .4rem;
+    border: .2rem solid rgb(212, 164, 21);
 }
 
 .new_cust{
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 .new_cust span{
@@ -382,17 +387,17 @@ span {
 }
 
 .third-panel{
-    height: 35px;
+    height: 3.5rem;
     background-color: #3d4c60;
     color: white;
     text-align: center;
-    padding-top: 1em;
-    font-size: 14px;
+    padding-top: 1rem;
+    font-size: 1.4rem;
     
 }
 
 .main-footer{
-    height: 350px;
+    height: 35rem;
     background-color: #232f3f;
     color: white;
     display: flex;
@@ -401,24 +406,24 @@ span {
 }
 
 .info{
-    padding: 2.5em 2em 2em;
-    font-size: 16px;
+    padding: 2.5rem 2rem 2rem;
+    font-size: 1.6rem;
     font-weight: bold;
-    padding-right: 4em;
+    padding-right: 4rem;
 }
 
 .info p{
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: normal;
     color: #dddddd;
-    padding: 6px;
+    padding: .6rem;
 }
 
 .sub-footer{
-    height: 120px;
+    height: 12rem;
     background-color: #232f3f;
     display: flex;
-    font-size: 12px;
+    font-size: 1.2rem;
     justify-content: center;
     align-items: center;
     color: #dddddd;
@@ -426,46 +431,46 @@ span {
 
 .footer-logo{
     text-align: center;
-    padding-right: 5em;
-    height: 40px;
-    width: 80px;
+    padding-right: 5rem;
+    height: 4rem;
+    width: 8rem;
 }
 
 .lang{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 5px 17px 5px;
+    padding: .5rem 1.7rem .5rem;
 }
 
 .down-arrow{
     text-align: center;
-    padding-top: .5em;
-    padding-left: .5em;
+    padding-top: .5rem;
+    padding-left: .5rem;
 }
 
 .currancy{
-    font-size: 12px;
-    padding: 9px 15px 9px;
+    font-size: 1.2rem;
+    padding: .9rem 1.5rem .9rem;
 }
 
 .usa{
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: lighter;
-    padding: 8px 6px 8px;
+    padding: .8rem .6rem .8rem;
 }
 
 .outline{
-    border: 1px solid #a8a7a7;
-    margin: .4em;
-    border-radius: 4px;
+    border: .1rem solid #a8a7a7;
+    margin: .4rem;
+    border-radius: .4rem;
 }
 
 .second-footer{
-    height: 450px;
+    height: 45rem;
     background-color: #101721;
     color:  #999999;
-    font-size: 12px;
+    font-size: 1.2rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -478,11 +483,11 @@ span {
 }
 
 .small-container{
-    height: 30px; 
-     width: 100px;
+    height: 3rem; 
+     width: 10rem;
     display: flex;
     flex-direction: column;
-     margin: 2em; 
+     margin: 2rem; 
 }
 
 .second-subfooter{
@@ -500,24 +505,39 @@ span {
 
 .privacy-policy{
 
-    padding-top: 2em;
+    padding-top: 2rem;
 }
 
 .privacy-policy a{
     text-decoration: none;
     color: #dddddd;
     font-weight: 400;
-    padding: .6em ;
+    padding: .6rem ;
 }
 
 .privacy-policy p{
     text-align: center;
     color: #dddddd;
     font-weight: 400;
-    padding-top: 4px;
+    padding-top: .4rem;
 }
-/* 
-.line{
-    border-top: 2px solid #999999;
-    width: -2px;
-} */
+
+@media screen and (min-width : 770px){
+    html{
+        font-size: 55%;
+        width: 55%;
+        box{
+            width: 15%;
+        }
+    }
+}
+
+@media screen and (max-width : 768px){
+    html{
+        font-size: 45%;
+        width: 45%;
+        box{
+            width: 10%;
+        }
+    }
+}
