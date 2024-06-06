@@ -219,7 +219,6 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     background-color: rgba(226, 239, 241, 0.954);
     padding: 1rem 1.4rem;
 }
@@ -269,9 +268,8 @@ span {
     width: 98%;
     background-color: white;
     margin-left: .7rem;
-    /* margin-right: .1rem; */
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -287,7 +285,6 @@ span {
 
 .box2 {
 
-    /* padding-top: 1em; */
     height: 20rem;
     width: 17%;
     background-color: white;
@@ -320,7 +317,6 @@ span {
     margin-top: 2rem;
     padding-left: .7rem;
     margin-left: .5rem;
-    /* display: flex; */
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
@@ -532,105 +528,7 @@ span {
     padding-top: .4rem;
 }
 
-
-
-@media (max-width : 760px) and (width : 980px) {
-    html { 
-        font-size: 75%;
-        width: 75%;
-
-        .navbar {
-            height: fit-content;
-        }
-
-        .search-bar {
-            width: fit-content;
-        }
-
-        .container {
-            height: fit-content;
-            width: fit-content;
-        }
-
-        .box {
-            height: fit-content;
-            width: fit-content;
-        }
-
-        .box-image {
-            height: 15rem;
-            width: 15rem;
-        }
-
-        .heading {
-            font-size: 100%;
-        }
-
-        .second-container {
-            height: auto;
-            width: auto;
-        }
-
-        .second-subcontainer {
-            height: auto;
-            width: auto;
-            flex-wrap: wrap;
-        }
-
-        .box2 {
-            height: 100%;
-            width: 100%;
-         }
-
-        .box2-image {
-            height: auto;
-            width: auto;
-        }
-
-        .container-third {
-            height: auto;
-            width: auto;
-            flex-wrap: wrap;
-        }
-
-        .box3 {
-            height: 100%;
-            width: 40%;
-
-        }
-
-        .two-images {
-            height: 100%;
-            width: 100%;
-        }
-
-        .two-images-next{
-            
-            height: 12rem;
-            width: 25rem;
-        }
-        .third-heading {
-            width: auto;
-            font-size: 100%;
-        }
-
-        .info {
-            font-size: 1.2rem;
-        }
-
-        .info p {
-            font-size: 1rem;
-            padding: .1rem;
-        }
-
-        .second-footer {
-            height: auto;
-        }
-
-    }
-}
-
-@media (max-width : 550px) {
+@media (max-width : 1280px) {
     html {
         font-size: 70%;
         width: 100%;
@@ -650,6 +548,9 @@ span {
 
         .acc-detail{
             font-size: 1rem;
+        }
+        .hero-txt{
+            height: fit-content;
         }
 
         .hero-txt span {
@@ -681,39 +582,38 @@ span {
         }
 
         .second-container {
-            height: auto;
+            height: 100%;
             width: auto;
         }
-
-        .second-subcontainer {
-            height: auto;
-            width: auto;
-            /* flex-wrap: wrap; */
-        }
-
-        .second-heading {
-            font-size: 1rem;
-        }
-
-        .box2 {
+       .second-subcontainer {
             height: 100%;
             width: 100%;
+           flex-wrap: wrap;
+        }
+         .box2 {
+             height: fit-content;
+            width: fit-content;
         }
 
         .box2-image {
-            height: 5rem;
-            width: 3rem;
+            height: 14rem;
+            width: 8rem;
+        } 
+        .second-heading {
+            font-size: 1.5rem;
+            width: auto;
         }
+
 
         .container-third {
             height: auto;
             width: auto;
-            /* flex-wrap: wrap; */
+            flex-wrap: wrap;
         }
 
         .box3 {
-            height: 100%;
-            width: 100%;
+            height: fit-content;
+            width: fit-content;
 
         }
 
@@ -734,7 +634,7 @@ span {
             font-size: 100%;
         }
         .signin{
-            width: fit-content;
+            width: 25%;
         }
 
         .second-panel{
@@ -765,7 +665,13 @@ span {
         }
 
         .second-footer {
-            height: auto;
+            height: fit-content;
+         
+        }
+
+        .small-container{
+            width: 5rem;
+            height: fit-content;
         }
 
     }
