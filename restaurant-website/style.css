@@ -1,0 +1,340 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.navbar {
+    height: 5rem;
+    /* background-color: rgba(248, 244, 248, 0.962); */
+     background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+
+.logo {
+    background-image: url('./images/logo.png');
+    height: 4.9rem;
+    width: 10rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(92, 84, 84);
+    font-size: medium;
+}
+
+a:hover {
+    color: rgb(228, 195, 47);
+    text-decoration: underline .2rem solid;
+}
+
+.small-logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
+    list-style-type: none;
+
+}
+
+.small-logo li {
+    padding-right: 1rem;
+}
+
+.small-logo li:hover {
+    color: rgb(228, 195, 47);
+    text-decoration: underline .2rem solid;
+}
+
+hr {
+    border-bottom: .2rem solid rgb(171, 170, 170);
+}
+
+
+.home-container {
+    height: 60rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb(239, 239, 243);
+
+}
+
+.container {
+    height: 10rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 5rem;
+    padding: 5rem;
+}
+
+ .container h1{
+    text-align: left;
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+    width: 60%;
+}
+    
+h1 span {
+    color: rgb(228, 195, 47);
+    font-family: cursive;
+} 
+
+.container p {
+    font-size: medium;
+    padding: .8rem;
+    text-align: left;
+    word-spacing: .3rem;
+
+}
+
+.btn {
+    background-color: rgb(228, 195, 47);
+    width: 20%;
+    padding: 1rem;
+    margin-top: 3rem;
+    border: .2rem solid transparent;
+    color: rgb(244, 243, 235);
+    font-size: medium;
+}
+
+.btn:hover {
+    border: .2rem solid rgb(232, 220, 168);
+}
+
+.div-image {
+    background-image: url('./images/main_img.png');
+    height: 70%;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 5rem;
+}
+
+.div-plate-image {
+    background-image: url('./images/Food-Plate.png');
+    height: 70%;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 5rem;
+}
+
+.container h2 {
+    font-size: 2.5rem;
+    text-align: left;
+    margin-bottom: 2.5rem;
+}
+
+ .menu-container{
+   width: 100%;
+   height: 110rem;
+   background-color: rgb(239, 239, 243);
+}
+
+.menu-heading{
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+.menu-heading span{
+    text-decoration: underline .2rem rgb(228, 195, 47);
+    text-underline-offset: .7rem;
+}
+
+.menu-sub-containers {
+    display: flex;
+    height: 40rem;
+    width: 100%;
+    background-color: rgb(239, 239, 243);
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.menu-items {
+    height: 40rem;
+    width: 23%;
+    background-color: rgb(248, 250, 250);
+    display: flex;
+    flex-direction: column;
+    border: .2rem solid rgb(237, 234, 234);
+    border-radius: .9rem;
+    /* justify-content: center;
+    text-align: center; */
+}
+
+.menu-images {
+    height: 21rem;
+    width: 93%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.menu-images:hover{
+    transform: scale(.9);
+    .invisible-like{
+        color: black;
+    }
+}
+
+.invisible-like{
+    font-size: 2rem;
+    text-align: right;
+    margin: .5rem;
+    color: transparent;
+}
+
+.menu-items h3 {
+    color: rgb(228, 195, 47);
+    font-size: large;
+    text-align: center;
+    margin: .5rem;
+}
+
+.menu-items p {
+    font-size: medium;
+    text-align: center;
+    margin: .5rem;
+}
+
+.price {
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.ratings {
+    text-align: center;
+    color: rgb(228, 195, 47);
+    font-size: 1.5rem;
+    margin-bottom: .9rem;
+}
+
+.btn1 {
+    width: 38%;
+    padding: .7rem;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 25%;
+} 
+.gallary-container{
+    /* height: 60rem; */
+    background-color: rgb(239, 239, 243);
+}
+
+.gallary-heading{
+    text-align: center;
+    font-size: 4rem;
+    padding: 4rem;
+ 
+}
+.gallary-heading span{
+    text-decoration: underline .2rem rgb(228, 195, 47);
+    text-underline-offset: .7rem;
+}
+
+.gallary-sub-container{
+    height: 30rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 2rem ;
+  
+}
+
+.images{
+    height: 80%;
+    width: 33%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.content:hover{
+    opacity: 1;
+    .btn2{
+        transform: translateY(-1.5rem);
+    }
+
+}
+
+.content{
+    height: 36%;
+    width: 26%;
+    position: absolute;
+    background-color: rgba(0,0 , 0, 0.6);
+    opacity: 0;
+    transition: all .2s ease-in;
+}
+.content h1{
+    color: rgb(228, 195, 47);
+    font-size: 2rem;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 5rem;
+}
+.content p{
+    font-size: medium;
+    text-align: center;
+    color: white;
+    margin: 2rem;
+}
+.btn2{
+    background-color:rgb(228, 195, 47) ;
+    color: black;
+    padding: .7rem;
+    width: 22%;
+    font-size: medium;
+    margin-left: 15rem;
+    transition: all .3s ease-in;
+}
+
+.Review-container{
+    height: 40rem;
+}
+
+.Review-images{
+    height: 15rem;
+    width: 50%;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+
+.Review-items{
+    justify-content: start;
+    align-items: center;
+
+}
+
+.Review-items h3{
+    color: black;
+}
+
