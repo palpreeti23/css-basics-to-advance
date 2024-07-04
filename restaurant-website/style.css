@@ -525,10 +525,16 @@ h1 span {
     color: rgb(70, 72, 72);
 }
 
-.social-sites{
+.social-sites a{
 
     font-size: 2rem;
+    color: black;
     padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.social-sites a:hover{
+    color: rgb(223, 195, 70);
 }
 
 .credits{
