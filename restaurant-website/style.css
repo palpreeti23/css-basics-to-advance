@@ -259,7 +259,8 @@ h1 span {
     margin: 0 3rem 0;
 
 }
-.gallary-image{
+
+.gallary-image {
 
     height: 27rem;
     width: 40rem;
@@ -395,9 +396,9 @@ h1 span {
 .form-container {
     height: 50rem;
     display: flex;
-    /* flex-wrap: nowrap; */
+    flex-wrap: nowrap;
     justify-content: space-evenly;
-    text-align: center;
+    align-items: center;
 
 }
 
@@ -536,6 +537,7 @@ h1 span {
 
 .footer-panel {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 
 }
@@ -625,7 +627,7 @@ h1 span {
     }
 
     .btn {
-        width: 45%;
+        width: 39%;
         font-size: small;
     }
 
@@ -650,18 +652,20 @@ h1 span {
         height: 20rem;
         width: 93%;
     }
-.gallary-container{
-    height: fit-content;
-}
 
-.gallary-sub-container{
-    height: fit-content;
-}
-    .gallary-image{
+    .gallary-container {
+        height: fit-content;
+    }
+
+    .gallary-sub-container {
+        height: fit-content;
+    }
+
+    .gallary-image {
         height: 27rem;
         width: 33rem;
     }
-    
+
     .images {
         height: 100%;
         width: 100%;
@@ -725,13 +729,13 @@ h1 span {
         height: fit-content;
     }
 
-    .chef-container{
-        margin: 3rem ;
+    .chef-container {
+        margin: 3rem;
     }
 }
 
 
-@media screen and (max-width : 768px) {
+@media (max-width : 768px) {
 
     html {
         font-size: 55%;
@@ -744,8 +748,11 @@ h1 span {
 
     .div-image {
         height: 100rem;
-        width: 80rem;
-        margin: 5rem 0 5rem;
+        display:block;
+        margin-right: 0;
+        margin-left: 0;
+        width: 80%;
+        margin: 7rem 0 7rem;
     }
 
     .container {
@@ -772,7 +779,7 @@ h1 span {
     }
 
     .btn {
-        width: 30%;
+        width: 40%;
         font-size: small;
     }
 
@@ -787,25 +794,27 @@ h1 span {
     .menu-items {
         height: fit-content;
         width: 40%;
-       
+
     }
 
     .menu-images {
         height: 20rem;
     }
 
-    .gallary-container{
+    .gallary-container {
         height: fit-content;
     }
-    .gallary-sub-container{
+
+    .gallary-sub-container {
         height: fit-content;
     }
-    .gallary-image{
+
+    .gallary-image {
 
         height: 20rem;
         width: 30rem;
     }
-    
+
     .images {
         height: 100%;
         width: 100%;
@@ -815,53 +824,90 @@ h1 span {
         height: 20em;
         width: 30em;
     }
+
     .btn2 {
-      
+
         padding: .7rem;
         width: 33%;
         font-size: small;
-      
+
     }
+
     .content h1 {
-      
+
         font-size: 1.5rem;
         margin-top: 0;
     }
-    
+
     .content p {
         font-size: small;
         margin: .3rem;
     }
-    
+
     .btn2 {
-   
+
         padding: .4rem;
         width: 35%;
         font-size: small;
     }
+
     .content:hover {
         opacity: 1;
-    
+
         .btn2 {
             transform: translateY(-.5rem);
         }
-    
+
     }
-    
+
+    .Review-sub-container {
+        gap: 3rem;
+    }
+
+    .Review-items {
+        width: 43%;
+
+    }
+
+    .Review-images {
+        height: 14rem;
+        width: 50%;
+
+    }
 
     .main-form-container {
         height: fit-content;
     }
- .form-container {
+
+
+    .form-container {
+        justify-content: center;
         align-items: center;
-    } 
+        flex-wrap: wrap;
+    }
+    .div-order-image{
+        height: 20%;
+        width: 50%;
+    }
+    .contact-container{
+        height: fit-content;
+        padding-left: 15%;
+    }
 
     .main-chef-container {
         height: fit-content;
     }
-    
-    .chef-container{
-        margin: 2rem ;
-    }
-}
 
+    .chef-container {
+        margin: 2rem;
+    }
+
+    .main-footer{
+        height: fit-content;
+    }
+    .first-list h2 {
+        font-size: 1.5rem;
+        padding: 2rem 0 2rem;
+    }
+    
+}
